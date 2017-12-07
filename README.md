@@ -5,13 +5,12 @@ import java.util.Stack;
 
 public class Brackets{
 
-    public static boolean hasBalancedBrackets(String str)
-    {
+    public static boolean hasBalancedBrackets(String str){
+    
         Stack<Character> stack = new Stack<Character>();
         char x, y;
 
-       for(int i = 0; i < str.length(); i++)
-       {
+        for(int i = 0; i < str.length(); i++){
            x = str.charAt(i);
 
            if ( x == '(' || x == '[' || x == '{' || x == '<' )
