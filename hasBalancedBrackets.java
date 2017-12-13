@@ -24,7 +24,7 @@ public static boolean hasBalancedBrackets(String str){
                 if(x - y != 2 && x - y != 1)
                    return false;
             }
-      }
+       }
    }
 
     return stack.empty() ? true : false;
