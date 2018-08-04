@@ -21,7 +21,11 @@ public static boolean hasBalancedBrackets(String str){
                
             else {
                 y = stack.pop();
-       // if( ( x == ')' && y != '(' ) || ( x == ']' && y != '[' ) || ( x == '}' && y != '{' ) || ( x == '>' && y != '<' ) )
+             // if( ( x == ')' && y != '(' ) || 
+             //     ( x == ']' && y != '[' ) || 
+             //     ( x == '}' && y != '{' ) || 
+             //     ( x == '>' && y != '<' ) 
+             //   )
                 if(x - y != 2 && x - y != 1)
                    return false;
             }
