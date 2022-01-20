@@ -31,9 +31,8 @@ public class Zagrade {
                  //     ( x == ']' && y != '[' ) || 
                  //     ( x == '}' && y != '{' ) || 
                  //     ( x == '>' && y != '<' ) 
-                      )
-
-                      return false;
+ 
+                    return false;
                 }
            }
        }
